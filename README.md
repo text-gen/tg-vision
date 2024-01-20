@@ -12,6 +12,7 @@
 # Development
 
 | Prompt             | Usage                                               |
+| ----------------   | --------------------------------------------------- |
 | askGPT4  (hidden)  | Using OpenAI's GPT-4-Vision, ask about image        |
 
 ## Initialization section
