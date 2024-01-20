@@ -6,15 +6,21 @@
 | Prompt             | Usage                                               |
 | ----------------   | --------------------------------------------------- |
 | describe_Images    | Using OpenAI's GPT-4-Vision, describe Images        |
-| askGPT4  (hidden)  | Using OpenAI's GPT-4-Vision, ask about image        |
 
 
 
 # Development
+
+| Prompt             | Usage                                               |
+| askGPT4  (hidden)  | Using OpenAI's GPT-4-Vision, ask about image        |
+
+## Initialization section
 ```handlebars
 {{package "vision"}}
 ```
 
+
+## Example usage
 ```js
 const content = await run("vision/askGPT4", {prompt, base64Image});
 ```

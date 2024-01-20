@@ -13,6 +13,7 @@ version: 0.0.1
 disableProvider: true
 ---
 ```handlebars
+{{tg_selection}}
 You can structure your code here and then use the input or output template to retrieve("get" helper) the processed data, enhancing readability.
 ```
 ***
